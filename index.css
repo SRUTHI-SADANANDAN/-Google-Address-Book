@@ -54,13 +54,14 @@ form input{
     border-color: none;
     margin-block: auto;
     margin-top: -35px;
-    width: 276px;
-    height: 23px;
+    width: 619px;
+    height: 48px;
     -webkit-tap-highlight-color: transparent;
     position: absolute;
 }
-/* input[type="text"]::-ms-input-placeholder{
-   text-align: center;
+/* .search{
+    position: inherit;
+    padding-left: 426px;
 } */
 input{
     background-color: whitesmoke;
@@ -92,7 +93,9 @@ input{
     background-color: rgba(247,250,252,1);
     height: 570px;
     width: 283px;
-    position: static;
+    position: sticky;
+    float:left;
+    
 }
 .button{
     height: 54px;
@@ -240,7 +243,7 @@ span{
     margin-top: 18px;
     border: none;
     margin-left: 20px;
-    /* background-color: rgba(247,250,252,1); */
+    background-color: rgba(247,250,252,1);
 }
 .img-handyman{
     height: 54px;
@@ -258,20 +261,58 @@ span{
     position: absolute;
 }
 .download{
-    font-size: 16px;
-    margin-left: -33px;
+    /* font-size: 16px;
+    margin-left: -33px; */
+    margin-left: -33px; 
+    height: 36px;
+    width: 242px;
+    border-radius: 23px;
+    margin-top: 18px;
+    border: none;
+    margin-left: 20px;
+    background-color: rgba(247,250,252,1);
+}
+.img-download{
+    height: 54px;
+    width: 175px;
+    border-radius: 23px;
+    margin-top: -20px;
+    border: none;
+    margin-left: -102px;
 }
 .import{
-    margin-left: 112px;
+    margin-left: 150px;
     font-size: 16px;
+}
+.download:hover{
+    background-color: gray;
 }
 .di{
-    font-size: 16px;
-    margin-left: -33px;
+    /* font-size: 16px;
+    margin-left: -33px; */
+    margin-left: -33px; 
+    height: 36px;
+    width: 242px;
+    border-radius: 23px;
+    margin-top: 18px;
+    border: none;
+    margin-left: 20px;
+    background-color: rgba(247,250,252,1); 
+}
+.img-di{
+    height: 54px;
+    width: 175px;
+    border-radius: 23px;
+    margin-top: -20px;
+    border: none;
+    margin-left: -102px;
 }
 .delete{
-    margin-left: 112px;
+    margin-left: 150px;
     font-size: 16px;
+}
+.di:hover{
+    background-color: gray;
 }
 .labels{
     margin-left: 35px;
@@ -283,9 +324,7 @@ span{
     margin-left: 186px;
     margin-top: -50px;
 }
-.right-section{
 
-}
 .button:hover{
     scale: 1.1;
 }
@@ -296,3 +335,135 @@ span{
 .handyman:hover{
     background-color: gray;
 }
+.right-section{
+    background-color: white;
+    height: 570px;
+    width: 100%;
+    
+}
+.contact{
+    margin-top: 39px;
+    font-size: 30px;
+    font-weight: 400;
+    position: fixed;
+    margin-left: 312px;
+
+}
+#name{
+    margin-top: 98px;
+    margin-left: 315px;
+    position: fixed;
+}
+#email{
+    margin-top: 98px;
+    margin-left: 555px;
+    position: fixed;
+}
+#ph{
+    margin-top: 98px;
+    margin-left: 761px;
+    position: fixed;
+}
+#jc{
+    margin-top: 98px;
+    margin-left: 995px;
+    position: fixed;
+}
+
+.settings{
+    margin-left: 1028px;
+    margin-top: 98px;
+}
+.imp{
+    margin-left: 979px;
+    margin-top: 98px;
+}
+hr{
+    margin: 1rem 0;
+    color: black;
+    border: 0;
+    border-top: var(--bs-border-width) solid;
+    opacity: .25;
+    padding-left: 1040px;
+    margin-top: 295px;
+    margin-left: 103px;
+}
+.print{
+    margin-left: 916px;
+    margin-top: 98px;
+    position: fixed;
+}
+/* 
+.print-btn{
+    height: 20px;
+    width: 27px;
+    border-radius: 23px;
+    border: none;
+    margin-left: 907px;
+    margin-top: 68px;
+    background-color: rgba(247,250,252,1); 
+    float: left;
+}
+
+.print-btn:hover{
+    background-color: aliceblue;
+}
+.imp-btn{
+    height: 20px;
+    width: 27px;
+    border-radius: 23px;
+    border: none;
+    margin-left: 979px;
+    margin-top: 69px;
+} */
+/* .searchbar{
+    width:100%;
+    min-width: 700px;
+    display:flex;
+    align-items: center;
+    border-radius: 50px;
+    
+}
+.searchbar input{
+    border: 0;
+    margin-left: 360px;
+    flex: 1;
+    outline: none;
+    padding: 24px 69px;
+} */
+::placeholder{
+    padding: 24px;
+}
+form button{
+
+}
+form img{
+
+}
+.input-icons i {
+    position: absolute;
+}
+ 
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+ 
+.icon {
+
+    padding: 10px;
+    min-width: 40px;
+    margin-left: 3px;
+    margin-top: 11px;
+}
+ 
+.input-field {
+    width: 608px;
+    padding: 10px;
+    text-align: start;
+    color: #5f6368;
+    border: thin;
+    border-radius: 11px;
+}
+
+
