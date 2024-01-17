@@ -6,12 +6,12 @@ header{
 body{
     margin:0;
 }
-hr{
+/* hr{
     width:20px;
     height:3px;
     background-color: black;
     margin: 2px 0;
-}
+} */
 
 img{
     margin-left: 73px;
@@ -338,7 +338,7 @@ span{
 .right-section{
     background-color: white;
     height: 570px;
-    width: 100%;
+    width: auto;
     
 }
 .contact{
@@ -371,14 +371,14 @@ span{
 }
 
 .settings{
-    margin-left: 1028px;
-    margin-top: 98px;
+    margin-left: 79px;
+    margin-top: -4px;
 }
 .imp{
-    margin-left: 979px;
-    margin-top: 98px;
+    margin-left: 61px;
+    margin-top: -4px;
 }
-hr{
+/* hr{
     margin: 1rem 0;
     color: black;
     border: 0;
@@ -387,10 +387,10 @@ hr{
     padding-left: 1040px;
     margin-top: 295px;
     margin-left: 103px;
-}
+} */
 .print{
-    margin-left: 916px;
-    margin-top: 98px;
+    margin-left: 42px;
+    margin-top: -4px;
     position: fixed;
 }
 /* 
@@ -466,4 +466,40 @@ form img{
     border-radius: 11px;
 }
 
+div th{
+    padding: 15px;
+}
+/* th, td {
+    padding: 15px;
+  } */
+  .email{
+        padding-left: 172px;
+        font-weight: 400;
+        
+  }
+  .phone{
+    padding-left: 146px;
+    font-weight: 400;
+  }
+  .jtc{
+    padding-left: 108px;
+    font-weight: 400;
+  }
+  .name{
+    font-weight: 400;
+    padding-left: 25px;
+  }
+  h3{
+    padding-top: 39px;
+    font-family: "Google Sans";
+    padding-left: 301px;
+  }
+table{
+    margin-top: 7px;
+}
+hr{
+    width: 1005PX;
+}
+tr{
 
+}
